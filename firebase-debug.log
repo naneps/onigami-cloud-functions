@@ -1,0 +1,282 @@
+[debug] [2023-03-22T03:47:05.143Z] ----------------------------------------------------------------------
+[debug] [2023-03-22T03:47:05.146Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\msi_r\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-22T03:47:05.147Z] CLI Version:   11.25.1
+[debug] [2023-03-22T03:47:05.147Z] Platform:      win32
+[debug] [2023-03-22T03:47:05.147Z] Node Version:  v16.14.2
+[debug] [2023-03-22T03:47:05.156Z] Time:          Wed Mar 22 2023 10:47:05 GMT+0700 (Western Indonesia Time)
+[debug] [2023-03-22T03:47:05.156Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-22T03:47:05.162Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-03-22T03:47:05.195Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-22T03:47:05.195Z] > authorizing via signed-in user (ekaprasetya2244@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Project Client\onigami-cloud-functions
+
+[debug] [2023-03-22T03:47:05.982Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-03-22T03:47:05.983Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-03-22T03:47:33.836Z] ----------------------------------------------------------------------
+[debug] [2023-03-22T03:47:33.839Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\msi_r\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-22T03:47:33.840Z] CLI Version:   11.25.1
+[debug] [2023-03-22T03:47:33.840Z] Platform:      win32
+[debug] [2023-03-22T03:47:33.840Z] Node Version:  v16.14.2
+[debug] [2023-03-22T03:47:33.841Z] Time:          Wed Mar 22 2023 10:47:33 GMT+0700 (Western Indonesia Time)
+[debug] [2023-03-22T03:47:33.842Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-22T03:47:33.853Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-22T03:47:33.854Z] > authorizing via signed-in user (ekaprasetya2244@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Project Client\onigami-cloud-functions
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-22T03:49:15.535Z] > refreshing access token with scopes: []
+[debug] [2023-03-22T03:49:15.538Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-03-22T03:49:15.539Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-22T03:49:16.066Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-03-22T03:49:16.066Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-22T03:49:16.079Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-03-22T03:49:16.962Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-03-22T03:49:16.962Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project onigami-e5b28 (onigami) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2023-03-22T03:49:26.639Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-03-22T03:49:26.639Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:49:28.666Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com 200
+[debug] [2023-03-22T03:49:28.666Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com [omitted]
+[warn] !  database: missing required API firebasedatabase.googleapis.com. Enabling now... 
+[debug] [2023-03-22T03:49:28.667Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com:enable [none]
+[debug] [2023-03-22T03:49:28.667Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com:enable x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:49:30.478Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com:enable 200
+[debug] [2023-03-22T03:49:30.478Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com:enable [omitted]
+[debug] [2023-03-22T03:49:40.488Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-03-22T03:49:40.488Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:49:42.284Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com 200
+[debug] [2023-03-22T03:49:42.284Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firebasedatabase.googleapis.com [omitted]
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2023-03-22T03:49:42.290Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/onigami-e5b28 [none]
+[debug] [2023-03-22T03:49:42.830Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/onigami-e5b28 200
+[debug] [2023-03-22T03:49:42.830Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/onigami-e5b28 {"projectId":"onigami-e5b28","projectNumber":"776400766845","displayName":"onigami","name":"projects/onigami-e5b28","resources":{"hostingSite":"onigami-e5b28","storageBucket":"onigami-e5b28.appspot.com","locationId":"asia-southeast2"},"state":"ACTIVE","etag":"1_94010745-a469-461b-a763-93a72f759b5a"}
+[debug] [2023-03-22T03:49:53.996Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/onigami-e5b28/locations/asia-southeast1/instances databaseId=onigami-e5b28-default-rtdb&validateOnly=true
+[debug] [2023-03-22T03:49:53.996Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/onigami-e5b28/locations/asia-southeast1/instances {"type":"default_database"}
+[debug] [2023-03-22T03:49:55.449Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/onigami-e5b28/locations/asia-southeast1/instances 200
+[debug] [2023-03-22T03:49:55.449Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/onigami-e5b28/locations/asia-southeast1/instances {"name":"projects/776400766845/locations/asia-southeast1/instances/onigami-e5b28-default-rtdb","project":"projects/776400766845","databaseUrl":"https://onigami-e5b28-default-rtdb.asia-southeast1.firebasedatabase.app","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2023-03-22T03:49:55.451Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/onigami-e5b28/locations/asia-southeast1/instances databaseId=onigami-e5b28-default-rtdb
+[debug] [2023-03-22T03:49:55.452Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/onigami-e5b28/locations/asia-southeast1/instances {"type":"default_database"}
+[debug] [2023-03-22T03:49:57.017Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/onigami-e5b28/locations/asia-southeast1/instances 200
+[debug] [2023-03-22T03:49:57.018Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/onigami-e5b28/locations/asia-southeast1/instances {"name":"projects/776400766845/locations/asia-southeast1/instances/onigami-e5b28-default-rtdb","project":"projects/776400766845","databaseUrl":"https://onigami-e5b28-default-rtdb.asia-southeast1.firebasedatabase.app","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2023-03-22T03:50:02.491Z] >>> [apiv2][query] GET https://onigami-e5b28-default-rtdb.asia-southeast1.firebasedatabase.app/.settings/rules.json [none]
+[debug] [2023-03-22T03:50:04.523Z] <<< [apiv2][status] GET https://onigami-e5b28-default-rtdb.asia-southeast1.firebasedatabase.app/.settings/rules.json 200
+[debug] [2023-03-22T03:50:04.523Z] <<< [apiv2][body] GET https://onigami-e5b28-default-rtdb.asia-southeast1.firebasedatabase.app/.settings/rules.json [stream]
+[info] +  Database Rules for onigami-e5b28-default-rtdb have been written to database.rules.json. 
+[info] Future modifications to database.rules.json will update Realtime Database Security Rules when you run
+[info] firebase deploy.
+[info] 
+=== Firestore Setup
+[debug] [2023-03-22T03:50:04.528Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firestore.googleapis.com [none]
+[debug] [2023-03-22T03:50:04.529Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firestore.googleapis.com x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:50:06.344Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firestore.googleapis.com 200
+[debug] [2023-03-22T03:50:06.344Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/firestore.googleapis.com [omitted]
+[debug] [2023-03-22T03:50:06.345Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/onigami-e5b28/databases/(default) [none]
+[debug] [2023-03-22T03:50:06.770Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/onigami-e5b28/databases/(default) 200
+[debug] [2023-03-22T03:50:06.771Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/onigami-e5b28/databases/(default) {"name":"projects/onigami-e5b28/databases/(default)","uid":"2fc1864c-87fd-4284-bb56-eeeab8747c4d","createTime":"2023-03-10T02:01:53.258029Z","updateTime":"2023-03-10T02:01:53.258029Z","locationId":"asia-southeast2","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","appEngineIntegrationMode":"DISABLED","keyPrefix":"zet","deleteProtectionState":"DELETE_PROTECTION_DISABLED","etag":"IN7/sfLQ7v0CMM791e6i0P0C"}
+[debug] [2023-03-22T03:50:06.771Z] database_type: FIRESTORE_NATIVE
+[debug] [2023-03-22T03:50:06.771Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-22T03:50:06.772Z] > authorizing via signed-in user (ekaprasetya2244@gmail.com)
+[debug] [2023-03-22T03:50:06.772Z] [iam] checking project onigami-e5b28 for permissions ["firebase.projects.get"]
+[debug] [2023-03-22T03:50:06.772Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions [none]
+[debug] [2023-03-22T03:50:06.772Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:50:06.773Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-22T03:50:08.293Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions 200
+[debug] [2023-03-22T03:50:08.293Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2023-03-22T03:50:12.224Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/onigami-e5b28/releases pageSize=10&pageToken=
+[debug] [2023-03-22T03:50:13.942Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/onigami-e5b28/releases 200
+[debug] [2023-03-22T03:50:13.943Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/onigami-e5b28/releases {"releases":[{"name":"projects/onigami-e5b28/releases/cloud.firestore","rulesetName":"projects/onigami-e5b28/rulesets/13072358-f917-4cd5-b6e9-443d94948bd7","createTime":"2023-03-10T02:02:02.406896Z","updateTime":"2023-03-21T07:54:22.104208Z"},{"name":"projects/onigami-e5b28/releases/firebase.storage/onigami-e5b28.appspot.com","rulesetName":"projects/onigami-e5b28/rulesets/8202bf0c-afd6-4676-bdc2-eeb182b323cc","createTime":"2023-03-12T16:23:15.221745Z","updateTime":"2023-03-21T07:10:43.570267Z"}]}
+[debug] [2023-03-22T03:50:13.943Z] Found ruleset: projects/onigami-e5b28/rulesets/13072358-f917-4cd5-b6e9-443d94948bd7
+[debug] [2023-03-22T03:50:13.943Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/onigami-e5b28/rulesets/13072358-f917-4cd5-b6e9-443d94948bd7 [none]
+[debug] [2023-03-22T03:50:15.522Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/onigami-e5b28/rulesets/13072358-f917-4cd5-b6e9-443d94948bd7 200
+[debug] [2023-03-22T03:50:15.522Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/onigami-e5b28/rulesets/13072358-f917-4cd5-b6e9-443d94948bd7 [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2023-03-22T03:50:43.265Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/onigami-e5b28/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2023-03-22T03:50:43.267Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/onigami-e5b28/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2023-03-22T03:50:43.573Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/onigami-e5b28/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2023-03-22T03:50:43.573Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/onigami-e5b28/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/onigami-e5b28/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[debug] [2023-03-22T03:50:43.574Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/onigami-e5b28/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2023-03-22T03:50:43.575Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/onigami-e5b28/databases/(default)/collectionGroups/-/indexes {}
+[info] 
+=== Functions Setup
+[debug] [2023-03-22T03:50:43.578Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-22T03:50:43.578Z] > authorizing via signed-in user (ekaprasetya2244@gmail.com)
+[debug] [2023-03-22T03:50:43.579Z] [iam] checking project onigami-e5b28 for permissions ["firebase.projects.get"]
+[debug] [2023-03-22T03:50:43.579Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions [none]
+[debug] [2023-03-22T03:50:43.579Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:50:43.579Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-22T03:50:44.945Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions 200
+[debug] [2023-03-22T03:50:44.945Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/onigami-e5b28:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-22T03:50:44.946Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-03-22T03:50:44.946Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:50:44.947Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/runtimeconfig.googleapis.com [none]
+[debug] [2023-03-22T03:50:44.947Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:50:46.898Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com 200
+[debug] [2023-03-22T03:50:46.899Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2023-03-22T03:50:46.899Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2023-03-22T03:50:46.899Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:50:46.965Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/runtimeconfig.googleapis.com 200
+[debug] [2023-03-22T03:50:46.966Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2023-03-22T03:50:48.845Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2023-03-22T03:50:48.845Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2023-03-22T03:50:58.847Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-03-22T03:50:58.848Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/onigami-e5b28
+[debug] [2023-03-22T03:51:00.592Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com 200
+[debug] [2023-03-22T03:51:00.592Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/onigami-e5b28/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/.eslintrc.js 
+[info] +  Wrote functions/index.js 
+[info] +  Wrote functions/.gitignore 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-03-22T03:57:23.591Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-03-22T03:57:23.957Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-03-22T03:57:23.957Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.18.0","browserURL":"https://www.gstatic.com/firebasejs/9.18.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.18.0/firebase.tgz"},"live":{"version":"9.18","browserURL":"https://www.gstatic.com/firebasejs/live/9.18/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.18/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.18.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.18.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.18.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.18.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.18.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.18.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.18.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.18.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.18.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.18.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.18.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming D:\Project Client\onigami-cloud-functions is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=557482758&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-03-22T03:57:37.653Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-03-22T03:57:37.653Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-03-22T03:57:38.430Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-03-22T03:57:38.430Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-03-22T03:57:38.474Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-03-22T03:57:39.172Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-03-22T03:57:39.173Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"naneps","id":72372613,"node_id":"MDQ6VXNlcjcyMzcyNjEz","avatar_url":"https://avatars.githubusercontent.com/u/72372613?v=4","gravatar_id":"","url":"https://api.github.com/users/naneps","html_url":"https://github.com/naneps","followers_url":"https://api.github.com/users/naneps/followers","following_url":"https://api.github.com/users/naneps/following{/other_user}","gists_url":"https://api.github.com/users/naneps/gists{/gist_id}","starred_url":"https://api.github.com/users/naneps/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/naneps/subscriptions","organizations_url":"https://api.github.com/users/naneps/orgs","repos_url":"https://api.github.com/users/naneps/repos","events_url":"https://api.github.com/users/naneps/events{/privacy}","received_events_url":"https://api.github.com/users/naneps/received_events","type":"User","site_admin":false,"name":"Nandang Eka Prasetya","company":"@startsheep ","blog":"","location":"Indonesia","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":39,"public_gists":0,"followers":11,"following":30,"created_at":"2020-10-05T05:15:44Z","updated_at":"2023-03-07T07:17:32Z","private_gists":1,"total_private_repos":15,"owned_private_repos":15,"disk_usage":55386,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as naneps 
+[info] 
+[debug] [2023-03-22T03:58:04.653Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:58:05.332Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T03:58:05.333Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:58:41.583Z] >>> [apiv2][query] GET https://api.github.com/repos/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:58:42.264Z] <<< [apiv2][status] GET https://api.github.com/repos/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T03:58:42.264Z] <<< [apiv2][body] GET https://api.github.com/repos/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:58:44.126Z] >>> [apiv2][query] GET https://api.github.com/repos/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:58:44.323Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:58:44.751Z] <<< [apiv2][status] GET https://api.github.com/repos/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T03:58:44.751Z] <<< [apiv2][body] GET https://api.github.com/repos/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:58:44.948Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T03:58:44.948Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:58:46.107Z] >>> [apiv2][query] GET https://api.github.com/repos/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:58:46.694Z] <<< [apiv2][status] GET https://api.github.com/repos/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T03:58:46.695Z] <<< [apiv2][body] GET https://api.github.com/repos/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:58:52.149Z] >>> [apiv2][query] GET https://api.github.com/repos/onigami-cloud-function/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:58:52.793Z] <<< [apiv2][status] GET https://api.github.com/repos/onigami-cloud-function/actions/secrets/public-key 404
+[debug] [2023-03-22T03:58:52.793Z] <<< [apiv2][body] GET https://api.github.com/repos/onigami-cloud-function/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:58:53.343Z] >>> [apiv2][query] GET https://api.github.com/repos/onigami-cloud-function/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:58:53.640Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:58:53.982Z] <<< [apiv2][status] GET https://api.github.com/repos/onigami-cloud-function/actions/secrets/public-key 404
+[debug] [2023-03-22T03:58:53.982Z] <<< [apiv2][body] GET https://api.github.com/repos/onigami-cloud-function/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:58:54.216Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T03:58:54.216Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:59:17.520Z] >>> [apiv2][query] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:59:18.189Z] <<< [apiv2][status] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T03:59:18.189Z] <<< [apiv2][body] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-03-22T03:59:20.021Z] >>> [apiv2][query] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:59:20.202Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:59:20.342Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:59:20.586Z] <<< [apiv2][status] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T03:59:20.586Z] <<< [apiv2][body] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-03-22T03:59:20.865Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T03:59:20.865Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:59:20.896Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T03:59:20.896Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:59:25.414Z] >>> [apiv2][query] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:59:26.072Z] <<< [apiv2][status] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T03:59:26.073Z] <<< [apiv2][body] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-03-22T03:59:27.021Z] >>> [apiv2][query] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:59:27.360Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:59:27.643Z] <<< [apiv2][status] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T03:59:27.643Z] <<< [apiv2][body] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-03-22T03:59:27.988Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T03:59:27.989Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T03:59:29.619Z] >>> [apiv2][query] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T03:59:30.203Z] <<< [apiv2][status] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T03:59:30.203Z] <<< [apiv2][body] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-03-22T04:00:20.039Z] >>> [apiv2][query] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T04:00:20.384Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T04:00:20.634Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T04:00:21.069Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T04:00:21.069Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T04:00:21.093Z] <<< [apiv2][status] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T04:00:21.093Z] <<< [apiv2][body] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-03-22T04:00:21.228Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T04:00:21.229Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T04:00:23.061Z] >>> [apiv2][query] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key type=owner
+[debug] [2023-03-22T04:00:23.308Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T04:00:23.729Z] <<< [apiv2][status] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key 404
+[debug] [2023-03-22T04:00:23.729Z] <<< [apiv2][body] GET https://api.github.com/repos/naneps/onigami-cloud-functions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-03-22T04:00:23.940Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T04:00:23.940Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T04:00:35.269Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T04:00:35.735Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T04:00:35.784Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T04:00:35.785Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T04:00:36.297Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T04:00:36.298Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T04:00:42.922Z] >>> [apiv2][query] GET https://api.github.com/repos/user/repository/actions/secrets/public-key type=owner
+[debug] [2023-03-22T04:00:43.668Z] <<< [apiv2][status] GET https://api.github.com/repos/user/repository/actions/secrets/public-key 404
+[debug] [2023-03-22T04:00:43.668Z] <<< [apiv2][body] GET https://api.github.com/repos/user/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
